@@ -1,0 +1,101 @@
+{
+    "smart_tips": [
+      { "id": 1, "text": "A <b>taxa de conversão</b> da etapa <b>Prospects</b> para a etapa <b>Lead</b> está 10% <b>menor</b> do que no mesmo período do mês passado.", "type": "rate" },
+      { "id": 2, "text": "O seu funil necessita de <b>04 contatos</b> na etapa <b>MQL</b> para que você alcance a sua meta mensal.", "type": "goal" },
+      { "id": 3, "text": "O número de contatos <b> perdidos</b> na sua etapa <b>SQL</b> está <b>15% maior</b> do que no mesmo período do mês passado.", "type": "lost" },
+      { "id": 4, "text": "Na data atual seu foco deve estar na <b>conversão</b> dos contatos da etapa SQL. A <b>taxa de conversão</b> está em <b>90%</b>.", "type": "converting" },
+      { "id": 5, "text": "A <b>taxa de conversão</b> da etapa <b>Prospects</b> para a etapa <b>Lead</b> está <b>10% menor</b> do que no mesmo período do mês passado.", "type": "rate" },
+      { "id": 6, "text": "O seu funil necessita de <b>04 contatos</b> na etapa de <b>MQL</b> para que você alcançe a sua meta mensal.", "type": "goal" }
+    ],
+    "funnel": [
+      { "id": 1, "name": "all", "data": [
+          { "stage_name": "Smart Leads", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "Prospects", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "Lead", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "MQL", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "SQL", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "Optde", "active": 500, "connected": 45, "lost": 95, "converting": 30 },
+          { "stage_name": "CL", "active": 500, "connected": 45, "lost": 95, "converting": 30 }
+        ],
+        "summary": {
+          "active": 900,
+          "connected": 500,
+          "lost": 50
+        }
+      },
+      { "id": 2, "name": "user1", "data": [
+          { "stage_name": "Smart Leads", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "Prospects", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "Lead", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "MQL", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "SQL", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "Optde", "active": 501, "connected": 46, "lost": 96, "converting": 31 },
+          { "stage_name": "CL", "active": 501, "connected": 46, "lost": 96, "converting": 31 }
+        ],
+        "summary": {
+          "active": 901,
+          "connected": 501,
+          "lost": 51
+        }
+      },
+      { "id": 3, "name": "user2", "data": [
+          { "stage_name": "Smart Leads", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "Prospects", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "Lead", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "MQL", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "SQL", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "Optde", "active": 502, "connected": 47, "lost": 97, "converting": 32 },
+          { "stage_name": "CL", "active": 502, "connected": 47, "lost": 97, "converting": 32 }
+        ],
+        "summary": {
+          "active": 902,
+          "connected": 502,
+          "lost": 52
+        }
+      }
+    ],
+    "lost_reasons": [
+      { "id": 1,
+        "type": "by_user", "data": [
+          { "key": "Competidor", "users": [
+            { "name": "user1", "amount": 95, "color": "#fafafa" },
+            { "name": "user2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "user3", "amount": 97, "color": "#fcfcfc" }
+          ]},
+          { "key": "Empresa fechada", "users": [
+            { "name": "user1", "amount": 95, "color": "#fafafa" },
+            { "name": "user2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "user3", "amount": 97, "color": "#fcfcfc" }
+          ]}
+        ]
+      },
+      { "id": 2,
+        "type": "by_stage", "data": [
+          { "key": "Competidor", "users": [
+            { "name": "stage1", "amount": 95, "color": "#fafafa" },
+            { "name": "stage2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "stage3", "amount": 97, "color": "#fcfcfc" }
+          ]},
+          { "key": "Empresa fechada", "users": [
+            { "name": "stage1", "amount": 95, "color": "#fafafa" },
+            { "name": "stage2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "stage3", "amount": 97, "color": "#fcfcfc" }
+          ]}
+        ]
+      },
+      { "id": 3,
+        "type": "by_origin", "data": [
+          { "key": "Competidor", "users": [
+            { "name": "origin1", "amount": 95, "color": "#fafafa" },
+            { "name": "origin2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "origin3", "amount": 97, "color": "#fcfcfc" }
+          ]},
+          { "key": "Empresa fechada", "users": [
+            { "name": "origin1", "amount": 95, "color": "#fafafa" },
+            { "name": "origin2", "amount": 96, "color": "#fbfbfb" },
+            { "name": "origin3", "amount": 97, "color": "#fcfcfc" }
+          ]}
+        ]
+      }
+    ]
+  }
